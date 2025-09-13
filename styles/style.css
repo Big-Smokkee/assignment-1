@@ -1,0 +1,75 @@
+/* Fonts */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Shared style */
+.title{
+    font-weight: bold;
+}
+/* Nav Section */
+.navBar{
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand{
+    color: #4E47FF;
+    font-family: "Inter";
+    font-size: 34px;
+    font-weight: 900;
+}
+.signup-btn{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.banner-section{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 100vh;
+}
+/* Hero section */
+.hero-section{
+    padding: 158px 267.5px 152px;
+    text-align: center;
+}
+.hero-section-title{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 37px;
+}
+/* Action section */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 116px 160px 116px 141px;
+}
+.action-section-text{
+    width: 517px;
+}
+.action-section-text div{
+    margin-bottom: 23px;
+}
+.action-section-title{
+    font-size: 42px;
+}
+.action-section-description{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.action-section-image img{
+    border-radius: 48px;
+}
