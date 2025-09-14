@@ -210,3 +210,34 @@
 .newsletter-form textarea::placeholder{
     color: rgba(0, 0, 0, 0.5);
 }
+
+/*Footer sytles*/
+.brand-title{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+footer .container{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 104px 455px 103px 454px;
+}
+.footer-description{
+    color: #8987A1;
+}
+.footer-links{
+    margin-top: 20px;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.footer-links li{
+    list-style: none;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: #8987A1;
+}
