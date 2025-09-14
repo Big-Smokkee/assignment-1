@@ -153,6 +153,42 @@
     color: rgba(179, 179, 179, 1);
 }
 
+/* FFocus style */
+.focus-section{
+    
+    padding: 137px 150px 138px 151px;
+
+}
+.focus-section-container{
+    padding: 71px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.focus-section-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.focus-section-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+.started-button{
+    width: 195px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    color:#FFFFFF;
+}
+.focus-section-img{
+    border-radius: 48px;
+}
 /* newsletter style */
 .newsletter-container{
     margin: 92.33px 150px 14px 150px;
