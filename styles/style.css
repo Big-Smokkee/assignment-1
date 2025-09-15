@@ -41,6 +41,7 @@
     background-color: #FFFFFF;
     color: #4E47FF;
     border: 1px solid #4E47FF;
+    transition: 0.5s ease;
 }
 .banner-section{
     background-image: url(../Assets/Hero-bg.png);
@@ -163,7 +164,7 @@
 .focus-section{
     
     padding: 137px 150px 138px 151px;
-
+    
 }
 .focus-section-container{
     padding: 71px 150px;
@@ -196,6 +197,7 @@
     background-color: #FFFFFF;
     padding: 12px 34px;
     color: #4E47FF;
+    transition: 0.5s ease;
     border: 1px solid #4E47FF;
 }
 .focus-section-img{
@@ -253,6 +255,7 @@
     color: #4E47FF;
     background-color: #FFFFFF;
     border: 1px solid #4E47FF;
+    transition: 0.5s ease;
 }
 .newsletter-form input::placeholder{
     color: rgba(0, 0, 0, 0.5);
