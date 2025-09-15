@@ -35,6 +35,12 @@
     border: none;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+}
+.signup-btn:hover{
+    background-color: #FFFFFF;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
 }
 .banner-section{
     background-image: url(../Assets/Hero-bg.png);
@@ -186,59 +192,67 @@
     border: none;
     color:#FFFFFF;
 }
+.started-button:hover{
+    background-color: #FFFFFF;
+    padding: 12px 34px;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
+}
 .focus-section-img{
     border-radius: 48px;
 }
 /* newsletter style */
+.newsletter-section{
+    padding: 92.33px 150px 14px 150px;
+}
 .newsletter-container{
-    margin: 92.33px 150px 14px 150px;
+    padding: 71px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .newsletter-title{
     font-size: 72px;
     color: #000000;
+    text-align: left;
+    /* margin-right: 115px; */
 }
-.newsletter-container {
-    max-width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* gap: 60px; */
-    padding: 60px 20px;
+.newsletter-form{
+    width: 497px;
 }
-
 .newsletter-form label{
     margin-bottom:10px;
     font-size: 18px;
     font-weight: 500;
     display: block;
 }
-.newsletter-form{
-    width: 497px;
-}
-.newsletter-form textarea{
-    margin-bottom:19px;
-    display: block;
-    border: 1px solid rgba(214, 221, 237, 1);
-    border-radius: 10px;
-    width: 89%;
-    padding: 20px 32px;
-}
 .newsletter-form input{
     padding: 20px 32px;
-    margin-bottom:19px;
-    width: 89%;
-    border: 1px solid rgba(214, 221, 237, 1);
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-.newsletter-form button{
-    padding: 19px;
-    font-size: 16px;
+.newsletter-form textarea{
+    padding: 20px 32px;
     width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+.btn{
+    width: 497px;
+    padding: 19px 101px;
+    font-size: 16px;
     background-color: #4E47FF;
     border: none;
     color: #FFFFFF;
     font-weight: bold;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: #4E47FF;
+    background-color: #FFFFFF;
+    border: 1px solid #4E47FF;
 }
 .newsletter-form input::placeholder{
     color: rgba(0, 0, 0, 0.5);
